@@ -1,6 +1,10 @@
 Changelog
 =========
 
+3.2.0
+-----
+- added `pausable(afterCount:)` operator
+
 3.1.0
 -----
 - added `pairwise()` and `nwise(_:)` operators

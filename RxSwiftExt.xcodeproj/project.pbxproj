@@ -23,6 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		188C6DA31C47B4240092101A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6DA21C47B4240092101A /* RxSwift.framework */; };
+		1AB76A492013FC3000FD6349 /* pausableAfterCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB76A482013FC3000FD6349 /* pausableAfterCount.swift */; };
 		3D11958B1FCAD9AE0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D11958C1FCAD9AF0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D638DEC1DC2B2D50089A590 /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6D911C47B2B20092101A /* RxSwiftExt.framework */; };
@@ -223,6 +224,7 @@
 /* Begin PBXFileReference section */
 		188C6D911C47B2B20092101A /* RxSwiftExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188C6DA21C47B4240092101A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
+		1AB76A482013FC3000FD6349 /* pausableAfterCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pausableAfterCount.swift; sourceTree = "<group>"; };
 		3D638DE71DC2B2D40089A590 /* RxSwiftExtTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftExtTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D638E1E1DC2B3A40089A590 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		3DB034F61DC376D9002C6A26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 				538607A51E6F334B000361DE /* once.swift */,
 				538607A61E6F334B000361DE /* pausable.swift */,
 				5A1DDEBE1ED58F8600F2E4B1 /* pausableBuffered.swift */,
+				1AB76A482013FC3000FD6349 /* pausableAfterCount.swift */,
 				538607A71E6F334B000361DE /* repeatWithBehavior.swift */,
 				538607A81E6F334B000361DE /* retryWithBehavior.swift */,
 				538607A91E6F334B000361DE /* unwrap.swift */,
@@ -866,6 +869,7 @@
 				5386076F1E6F1C0A000361DE /* mapTo+RxCocoa.swift in Sources */,
 				538607B71E6F334B000361DE /* repeatWithBehavior.swift in Sources */,
 				538607AC1E6F334B000361DE /* catchErrorJustComplete.swift in Sources */,
+				1AB76A492013FC3000FD6349 /* pausableAfterCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
