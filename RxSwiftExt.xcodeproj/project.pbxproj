@@ -184,6 +184,9 @@
 		DC729EC42037B2740017370A /* toSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC729EC32037B2740017370A /* toSortedArray.swift */; };
 		DC729EC52037B2740017370A /* toSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC729EC32037B2740017370A /* toSortedArray.swift */; };
 		DC729EC62037B2740017370A /* toSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC729EC32037B2740017370A /* toSortedArray.swift */; };
+		DC82BA7E20BC124300AD6F46 /* MergeWithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82BA7D20BC124300AD6F46 /* MergeWithTests.swift */; };
+		DC82BA7F20BC124300AD6F46 /* MergeWithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82BA7D20BC124300AD6F46 /* MergeWithTests.swift */; };
+		DC82BA8020BC124300AD6F46 /* MergeWithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82BA7D20BC124300AD6F46 /* MergeWithTests.swift */; };
 		DCF11D3620A6E76600130827 /* mergeWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF11D3520A6E76600130827 /* mergeWith.swift */; };
 		DCF11D3720A6E76600130827 /* mergeWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF11D3520A6E76600130827 /* mergeWith.swift */; };
 		DCF11D3820A6E76600130827 /* mergeWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF11D3520A6E76600130827 /* mergeWith.swift */; };
@@ -347,6 +350,7 @@
 		DC612871209E80810053CBB7 /* mapMany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapMany.swift; sourceTree = "<group>"; };
 		DC4A51B2209492BA00955B9D /* ToSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToSortedArrayTests.swift; sourceTree = "<group>"; };
 		DC729EC32037B2740017370A /* toSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toSortedArray.swift; sourceTree = "<group>"; };
+		DC82BA7D20BC124300AD6F46 /* MergeWithTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeWithTests.swift; sourceTree = "<group>"; };
 		DCF11D3520A6E76600130827 /* mergeWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeWith.swift; sourceTree = "<group>"; };
 		E36BDFB91F387571008C9D56 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		E36BDFBA1F387571008C9D56 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/tvOS/RxTest.framework; sourceTree = "<group>"; };
@@ -549,6 +553,7 @@
 				538607CB1E6F367A000361DE /* WeakTests.swift */,
 				58C54E184069446EDEE748F9 /* ZipWithTest.swift */,
 				BF79DA0D206C185B008AA708 /* WithUnretainedTests.swift */,
+				DC82BA7D20BC124300AD6F46 /* MergeWithTests.swift */,
 			);
 			name = RxSwift;
 			path = Tests/RxSwift;
@@ -1024,7 +1029,8 @@
 				538607E91E6F36A9000361DE /* OnceTests.swift in Sources */,
 				BF79DA0E206C185B008AA708 /* WithUnretainedTests.swift in Sources */,
 				538607EE1E6F36A9000361DE /* WeakTests.swift in Sources */,
-				780CB21920A0ED3B00FD3F39 /* ToSortedArrayTests.swift in Sources */,
+				DC82BA7E20BC124300AD6F46 /* MergeWithTests.swift in Sources */,
+				DC4A51B3209492BA00955B9D /* ToSortedArrayTests.swift in Sources */,
 				538607E51E6F36A9000361DE /* IgnoreWhenTests.swift in Sources */,
 				538607E11E6F36A9000361DE /* CatchErrorJustCompleteTests.swift in Sources */,
 				538607ED1E6F36A9000361DE /* WeakTarget.swift in Sources */,
@@ -1103,7 +1109,8 @@
 				62512CA11F0EB1850083A89F /* UnwrapTests.swift in Sources */,
 				BF79DA0F206C185B008AA708 /* WithUnretainedTests.swift in Sources */,
 				62512CA31F0EB1850083A89F /* WeakTests.swift in Sources */,
-				780CB21A20A0ED3B00FD3F39 /* ToSortedArrayTests.swift in Sources */,
+				DC82BA7F20BC124300AD6F46 /* MergeWithTests.swift in Sources */,
+				DC4A51B4209492BA00955B9D /* ToSortedArrayTests.swift in Sources */,
 				62512C981F0EB1850083A89F /* IgnoreWhenTests.swift in Sources */,
 				62512C9E1F0EB1850083A89F /* PausableBufferedTests.swift in Sources */,
 				62512CA01F0EB1850083A89F /* RetryWithBehaviorTests.swift in Sources */,
@@ -1181,7 +1188,8 @@
 				E39C42031F18B13E007F2ACD /* DistinctTests.swift in Sources */,
 				BF79DA10206C185B008AA708 /* WithUnretainedTests.swift in Sources */,
 				E39C41FD1F18B13A007F2ACD /* DistinctTests+RxCocoa.swift in Sources */,
-				780CB21B20A0ED3B00FD3F39 /* ToSortedArrayTests.swift in Sources */,
+				DC82BA8020BC124300AD6F46 /* MergeWithTests.swift in Sources */,
+				DC4A51B5209492BA00955B9D /* ToSortedArrayTests.swift in Sources */,
 				E39C42051F18B13E007F2ACD /* IgnoreTests.swift in Sources */,
 				E39C420E1F18B13E007F2ACD /* RetryWithBehaviorTests.swift in Sources */,
 				E39C42061F18B13E007F2ACD /* IgnoreWhenTests.swift in Sources */,
