@@ -11,12 +11,12 @@ import RxSwift
 
 extension Observable {
     /**
-     Merges `self` with another observable.
+     Merges elements from the observable sequence with those of a different observable sequences into a single observable sequence.
 
-     - parameter other: An other observable.
-     - returns: A merged observable.
+     - parameter with: Other observables.
+     - returns: The observable sequence that merges the elements of the observable sequences.
      */
-    public func merge(with other: Observable<E>) -> Observable<E> {
-        return Observable.merge(self, other)
+    public func merge(with others: Observable<E>...) -> Observable<E> {
+        return Observable.merge([self] + others)
     }
 }

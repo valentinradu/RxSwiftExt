@@ -14,20 +14,24 @@ import RxSwiftExt
 
 /*:
  ## merge(with:)
- Merges the specified observable with another one.
+ Merges elements from observable sequences into a single observable sequence.
 
  */
 example("merge values") {
     let oddNumbers = [1, 3, 5, 7, 9]
     let evenNumbers = [2, 4, 6, 8, 10]
+    let otherNumbers = [1, 5 ,6, 2]
 
+    let disposeBag = DisposeBag()
     let oddStream = Observable.from(oddNumbers)
     let evenStream = Observable.from(evenNumbers)
+    let otherStream = Observable.from(otherNumbers)
 
-    oddStream.merge(with: evenStream)
+    oddStream.merge(with: evenStream, otherStream)
         .subscribe(onNext: { result in
             print(result)
         })
+        .disposed(by: disposeBag)
 }
 
 //: [Next](@next)
