@@ -338,8 +338,7 @@
 		BF515CE31F3F3AC900492640 /* FromAsyncTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromAsyncTests.swift; sourceTree = "<group>"; };
 		BF79DA09206C145D008AA708 /* withUnretained.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withUnretained.swift; sourceTree = "<group>"; };
 		BF79DA0D206C185B008AA708 /* WithUnretainedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithUnretainedTests.swift; sourceTree = "<group>"; };
-		C03988772126C77F00FFDA7D /* ToSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToSortedArrayTests.swift; path = Tests/RxSwift/ToSortedArrayTests.swift; sourceTree = "<group>"; };
-		C03988782126C7A700FFDA7D /* ToSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToSortedArrayTests.swift; path = Tests/RxSwift/ToSortedArrayTests.swift; sourceTree = "<group>"; };
+		C039887F2126D68900FFDA7D /* ToSortedArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToSortedArrayTests.swift; sourceTree = "<group>"; };
 		C4D2153E20118A81009804AE /* ofType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ofType.swift; sourceTree = "<group>"; };
 		C4D2154020118F8B009804AE /* Observable+OfTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+OfTypeTests.swift"; sourceTree = "<group>"; };
 		D7C72A3D1FDC5C5D00EAAAAB /* NwiseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NwiseTests.swift; sourceTree = "<group>"; };
@@ -429,8 +428,6 @@
 		18EE7A0F1C47B12F00C7256C = {
 			isa = PBXGroup;
 			children = (
-				C03988772126C77F00FFDA7D /* ToSortedArrayTests.swift */,
-				C03988782126C7A700FFDA7D /* ToSortedArrayTests.swift */,
 				188C6D921C47B2B20092101A /* Sources */,
 				3D638DF21DC2B2EE0089A590 /* Tests */,
 				9DAB77991D6763AC007E85BC /* Frameworks */,
@@ -525,6 +522,7 @@
 		538607BA1E6F362B000361DE /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C039887F2126D68900FFDA7D /* ToSortedArrayTests.swift */,
 				C4D2154020118F8B009804AE /* Observable+OfTypeTests.swift */,
 				3DBDE5FD1FBBB05400DF47F9 /* AndTests.swift */,
 				538607BB1E6F367A000361DE /* ApplyTests.swift */,
