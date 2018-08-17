@@ -175,7 +175,6 @@
 		D7C72A421FDC5D8F00EAAAAB /* nwise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C72A411FDC5D8F00EAAAAB /* nwise.swift */; };
 		D7C72A431FDC5D8F00EAAAAB /* nwise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C72A411FDC5D8F00EAAAAB /* nwise.swift */; };
 		D7C72A441FDC5D8F00EAAAAB /* nwise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C72A411FDC5D8F00EAAAAB /* nwise.swift */; };
-		DC4A51B5209492BA00955B9D /* ToSortedArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A51B2209492BA00955B9D /* ToSortedArrayTests.swift */; };
 		DC612872209E80810053CBB7 /* mapMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC612871209E80810053CBB7 /* mapMany.swift */; };
 		DC612873209E80810053CBB7 /* mapMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC612871209E80810053CBB7 /* mapMany.swift */; };
 		DC612874209E80810053CBB7 /* mapMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC612871209E80810053CBB7 /* mapMany.swift */; };
@@ -1172,6 +1171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03988752126C73A00FFDA7D /* ToSortedArrayTests.swift in Sources */,
 				E39C42001F18B13E007F2ACD /* ApplyTests.swift in Sources */,
 				E39C420B1F18B13E007F2ACD /* PausableTests.swift in Sources */,
 				E39C42021F18B13E007F2ACD /* CatchErrorJustCompleteTests.swift in Sources */,
@@ -1186,9 +1186,7 @@
 				E39C42031F18B13E007F2ACD /* DistinctTests.swift in Sources */,
 				BF79DA10206C185B008AA708 /* WithUnretainedTests.swift in Sources */,
 				E39C41FD1F18B13A007F2ACD /* DistinctTests+RxCocoa.swift in Sources */,
-				C03988752126C73A00FFDA7D /* ToSortedArrayTests.swift in Sources */,
 				DC82BA8020BC124300AD6F46 /* MergeWithTests.swift in Sources */,
-				DC4A51B5209492BA00955B9D /* ToSortedArrayTests.swift in Sources */,
 				E39C42051F18B13E007F2ACD /* IgnoreTests.swift in Sources */,
 				E39C420E1F18B13E007F2ACD /* RetryWithBehaviorTests.swift in Sources */,
 				E39C42061F18B13E007F2ACD /* IgnoreWhenTests.swift in Sources */,
