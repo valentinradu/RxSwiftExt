@@ -6,6 +6,8 @@ disabled_rules:
   - trailing_comma
 identifier_name:
   min_length: 1
+  allowed_symbols: "_:()"
+  max_length: 60
 opt_in_rules:
   - file_header
 type_name:
